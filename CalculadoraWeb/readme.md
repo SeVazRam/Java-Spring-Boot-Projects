@@ -37,10 +37,6 @@ Base URL: `http://localhost:8080/api/calculator`
 1. User navigates to the form:  
 http://localhost:8080/formulario
 
-css
-Copiar
-Editar
-
 2. Fills in two numbers and selects an operation.  
 Example form submission:
 
@@ -48,13 +44,9 @@ Numero 1: 10
 Numero 2: 5
 Operación: División
 
-markdown
-Copiar
-Editar
-
 3. The controller (`Calculadora.java`) processes the input.
 
 4. The result page (`resultado.html`) displays:  
 
-#
+
 

@@ -35,7 +35,7 @@ Base URL: `http://localhost:8080/api/calculator`
 ## How It Works
 
 1. User navigates to the form:  
-http://localhost:8080/formulario
+http://localhost:8080/calcular
 
 2. Fills in two numbers and selects an operation.  
 Example form submission:

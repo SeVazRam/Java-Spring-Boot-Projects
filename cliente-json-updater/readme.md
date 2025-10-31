@@ -5,7 +5,7 @@ Includes validation using `jakarta.validation`, centralized error handling, and 
 
 ---
 
-## 🏗️ Architecture (Layers)
+## Architecture (Layers)
 
 - **Controller**: `ClienteController` (defines REST endpoints)
 - **Service**: `ClienteService` (business logic, in-memory storage)
@@ -15,7 +15,7 @@ Includes validation using `jakarta.validation`, centralized error handling, and 
 
 ---
 
-## 🚦 Endpoints
+## Endpoints
 
 Base URL: `http://localhost:8080/api/clientes`
 

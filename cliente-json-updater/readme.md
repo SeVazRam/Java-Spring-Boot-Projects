@@ -32,25 +32,42 @@ Base URL: `http://localhost:8080/api/clientes`
 
 ### ClienteRequest
 json in
-[{
-  "nombre": "Sebastian",
-  "id": 105,
-  "numeroCuenta": "001-122-3344",
-  "ingresos": 9500.00
-},{
-""
-}]
+[
+  {
+    "nombre": "Sebastián",
+    "id": 105,
+    "numeroCuenta": "123-456-789",
+    "ingresos": 25000
+  },
+  {
+    "nombre": "Cecilia",
+    "id": 106,
+    "numeroCuenta": "987-654-321",
+    "ingresos": 1500
+  }
+]
 
 ### Update 
 json in
-{
-  "customerId": "123",
-  "productCode": "12",
-  "productInstrument": "34",
-  "accountNumber": "001122334455"
-}
-
+[{
+    "customerId": "105",
+    "productCode": "0061",
+    "productInstrument": "0001",
+    "accountNumber": "0000010000543311"
+  },
+  {
+    "customerId": "106",
+    "productCode": "0062",
+    "productInstrument": "0002",
+    "accountNumber": "0000010000543322"
+  }]
 ### Error Handles
+{
+  "mensaje": "JSON inválido",
+  "errores": [
+    {"campo": "customerId", "error": "customerId is required"}
+  ]
+}
 
 
 
